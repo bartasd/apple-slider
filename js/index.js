@@ -10,7 +10,6 @@ function removeActive(i) {
 function changeStatus(i) {
   active = i;
   for (let x = 0; x < 4; x++) removeActive(x);
-
   setActive(i);
 }
 
